@@ -65,6 +65,18 @@ header, .phb {
   display: block;
   width: 80%;
   margin: 0 auto; }
+  .img-center.resizable {
+    cursor: zoom-in; }
+    .img-center.resizable.fullscreen {
+      position: fixed;
+      width: auto;
+      max-width: 90vw;
+      max-height: 90vh;
+      top: 50vh;
+      left: 50vw;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      cursor: zoom-out; }
 
 blockquote.done {
   position: relative; }
